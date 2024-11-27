@@ -18,7 +18,7 @@ face_rec_model = dlib.face_recognition_model_v1("dlib_face_recognition_resnet_mo
 # Loads the face recognition model.
 
 # Load reference images and create face descriptors
-data_folder = Path('/home/the_path_to_the_dataset')  
+data_folder = Path('path_to_your_dataset')  
 # Specifies the folder containing reference face images.
 
 face_descriptors = []  # Initializes the list to store face descriptors.
