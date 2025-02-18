@@ -7,7 +7,7 @@ import smtplib  # Imports the smtplib library for sending email alerts.
 import dlib  # Imports the dlib library for face detection and recognition tasks.
 import numpy as np  # Imports the NumPy library for numerical computations.
 
-# ESP32-CAM stream URL
+# Loads your ESP32-CAM stream URL
 stream_url = 'http://192.168.137.237:81/stream'
 
 # Load dlib models
